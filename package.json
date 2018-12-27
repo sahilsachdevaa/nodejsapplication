@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/sahilsachdevaa/nodejsapplication/issues"
   },
-  "homepage": "https://github.com/sahilsachdevaa/nodejsapplication#readme"
+  "homepage": "https://github.com/sahilsachdevaa/nodejsapplication#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "save": "^2.3.3",
+    "serve-favicon": "^2.5.0"
+  }
 }
